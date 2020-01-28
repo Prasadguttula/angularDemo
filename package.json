@@ -1,11 +1,14 @@
 {
   "name": "angular-demo",
   "version": "0.0.0",
+  "homepage":"https://prasadguttula.github.io/angularDemo/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
